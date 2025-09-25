@@ -116,11 +116,7 @@ class _SubjectsViewState extends State<SubjectsView> {
                       subjects: subjects,
                       isGrid: isGridView,
                       onSubjectTap: (subject) {
-                        Navigator.pushNamed(
-                          context,
-                          '/lessons',
-                          arguments: subject,
-                        );
+
                       },
                     );
                   }

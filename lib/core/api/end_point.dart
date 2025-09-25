@@ -1,5 +1,6 @@
 class EndPoints {
   static const String baseUrl = 'https://taseese.org/api';
+  static const String imgUrl = "https://taseese.org/";
   static const String systems = '/public/systems';
   static const String stages = '/public/stages';
   static const String classrooms = '/public/classrooms';
